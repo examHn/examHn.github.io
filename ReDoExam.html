@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="ReDoExam.css">
+</head>
+
+<body>
+    <div class="ngoai">
+        <div class="trong">
+            <h4>BẢNG ĐIỀU TRA VẬT NUÔI YÊU THÍCH</h4>
+            <p>Trả lời các câu hỏi sau về con vật yêu thích của bạn</p>
+        </div>
+    </div>
+    <form action="">
+        <div class="ngoai">
+            <div class="trong" id="hai">
+                <section id="blank" class="dau"></section>
+                <section>CHÓ</section>
+                <section>MÈO</section>
+                <section class="dau">BẠN NUÔI</section>
+                <section><input type="checkbox" id="coCho">CÓ</section>
+                <section><input type="checkbox" id="coMeo">CÓ</section>
+                <section class="dau chinhTen" id="ten">TÊN</section>
+                <section class="chinhTen"><input type="text" class="nhapChu" id="tenCho"></section>
+                <section class="chinhTen"><input type="text" class="nhapChu" id="tenMeo"></section>
+                <section class="dau">MÀU LÔNG</section>
+                <section id="longCho">
+                    <input type="radio" name="mauCho" id="choDen">Đen
+                    <input type="radio" name="mauCho" id="choTrang">Trắng
+                    <input type="radio" name="mauCho" id="choKhac">Khác
+                </section>
+                <section id="longMeo">
+                    <input type="radio" name="mauMeo" id="meoDen">Đen
+                    <input type="radio" name="mauMeo" id="meoTrang">Trắng
+                    <input type="radio" name="mauMeo" id="meoKhac">Khác
+                </section>
+            </div>
+        </div>
+        <div class="ngoai">
+            <div class="trong">
+                <p id="lyDo">Lý do bạn yêu quý nó</p>
+                <textarea name="" id="lyDoTa" cols="30" rows="5"></textarea>
+            </div>
+        </div>
+        <div class="ngoai">
+            <div class="trong">
+                <div>
+                    <input type="button" value="Huy" onclick="anHuy()">
+                    <input type="reset" value="Xoa" id="xoa">
+                </div>
+                <input type="button" value="Gui" id="gui" onclick="anGui()">
+            </div>
+        </div>
+    </form>
+    <script src="ReDoExam.js"></script>
+</body>
+
+</html>

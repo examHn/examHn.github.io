@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+}
+
+div {
+    padding: .2%;
+}
+
+.trong {
+    border: 4px ridge grey;
+}
+
+.ngoai {
+    border: 2px ridge grey;
+}
+
+section {
+    float: left;
+    width: 38vw;
+    border: 2px solid pink;
+    height: 3vh;
+    padding-top: 4.5px;
+    margin: .7px;
+}
+
+#blank {
+    border: none;
+    margin-left: 5px;
+}
+
+#hai {
+    height: 18vh;
+    padding-left: .7%;
+}
+
+.dau {
+    clear: both;
+    width: 20%;
+    text-align: left;
+}
+
+#lyDo {
+    text-decoration: underline;
+    font-style: italic;
+    margin-top: 1px;
+}
+
+.nhapChu {
+    border: 3px inset;
+}
+
+#gui {
+    margin-top: 1%;
+}
+
+#xoa {
+    margin-left: 1%;
+}
+
+.chinhTen {
+    padding-bottom: 4px;
+}
+
+#ten {
+    padding-top: 4px;
+}
